@@ -3,6 +3,7 @@ import React, { useLayoutEffect, useState } from 'react'
 import { Button, Icon, Input } from 'react-native-elements'
 import { db } from '../firebase'
 
+
 const AddChatScreen = ({navigation}) => {
     const [input,setInput] =useState("")
     useLayoutEffect(() =>{
